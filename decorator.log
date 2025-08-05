@@ -1,0 +1,3 @@
+function: hello | positional parameters: none | keyword parameters: none | return: None
+function: true | positional parameters: (1, 5, 7) | keyword parameters: none | return: <function logger_decorator.<locals>.wrapper at 0x00000256206F1300>
+function: kwarg | positional parameters: none | keyword parameters: {'x': 5, 'y': 24} | return: <function logger_decorator at 0x00000256205ACFE0>
