@@ -85,6 +85,11 @@ clean_data['Salary'] = clean_data['Salary'].fillna(clean_data['Salary'].median()
 print("\nTask 4 - After Filling Missing Values:")
 print(clean_data)
 
+clean_data["Hire Date"] = clean_data["Hire Date"].replace({
+    "2020-03-18": "2020/03/18",
+    "2019-07-11": "2019/07/22",
+    "3/25/2019": "2019/03/25"
+})
 clean_data['Hire Date'] = pd.to_datetime(clean_data['Hire Date'], errors='coerce')
 print("\nTask 4 - After Converting Hire Date:")
 print(clean_data)
