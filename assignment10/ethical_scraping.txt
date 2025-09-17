@@ -1,0 +1,21 @@
+1. Which sections of the website are restricted for crawling?
+
+- /w/  
+- /api/  
+- /trap/  
+- /wiki/Special:  
+- /wiki/Spezial:   
+- /wiki/Spezial:  
+- /wiki/Spesial%3A
+- /wiki/Special%3A
+- /wiki/Special%3A
+
+2. Are there specific rules for certain user agents?
+Yes, some include zealbot, User-agent, adn webreaper. A sealbot is a search engine bot, which is disallowed from crawling.
+A user-agent is a string that a browser send in the HTTP request header to identify itself.
+A webreaper is a website downloading tool that is disollwed from crawling because it downalods "gazillion" pages with no benefit.
+
+3. Reflect on why websites use robots.txt and how it promotes ethical scraping:
+
+Websites use robots.txt as a way to publicly declare which parts of their site they *prefer* that crawlers or automated agents do or do not access. It helps reduce server load by preventing indiscriminate crawling of dynamically generated or administrative pages.  
+By providing rules in robots.txt, site operators give guidance to well-behaved crawlers about what is “safe” to crawl, which promotes more responsible behaviour. Respecting robots.txt is part of ethical scraping: it shows respect for the server’s resources, the site’s structure, and the site owner's wishes.  
